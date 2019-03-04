@@ -30,18 +30,26 @@
       "static/ozvg0kqtSbTOS6KjoLklh/pages/gallery.js": 4,
       "static/ozvg0kqtSbTOS6KjoLklh/pages/index.js": 5,
       "static/ozvg0kqtSbTOS6KjoLklh/pages/meet-the-party.js": 6,
-      "static/ozvg0kqtSbTOS6KjoLklh/pages/our-story.js": 7
+      "static/ozvg0kqtSbTOS6KjoLklh/pages/our-story.js": 7,
+      "static/KbuvSSnMLcvCA~Xo2iFud/pages/_app.js": 8,
+      "static/KbuvSSnMLcvCA~Xo2iFud/pages/_document.js": 9,
+      "static/KbuvSSnMLcvCA~Xo2iFud/pages/_error.js": 10,
+      "static/KbuvSSnMLcvCA~Xo2iFud/pages/faq.js": 11,
+      "static/KbuvSSnMLcvCA~Xo2iFud/pages/gallery.js": 12,
+      "static/KbuvSSnMLcvCA~Xo2iFud/pages/index.js": 13,
+      "static/KbuvSSnMLcvCA~Xo2iFud/pages/meet-the-party.js": 14,
+      "static/KbuvSSnMLcvCA~Xo2iFud/pages/our-story.js": 15
     },
     "bySource": {},
     "usedIds": [
-      0,
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      8,
+      9
     ]
   }
 }
