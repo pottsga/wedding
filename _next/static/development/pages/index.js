@@ -21,7 +21,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_7__);
 /* harmony import */ var next_server_head__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! next-server/head */ "./node_modules/next-server/head.js");
 /* harmony import */ var next_server_head__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(next_server_head__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ "./node_modules/bootstrap/dist/css/bootstrap.min.css");
+/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _layout_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./layout.css */ "./components/layout.css");
+/* harmony import */ var _layout_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_layout_css__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
 
 
 
@@ -29,6 +33,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _jsxFileName = "/Users/potts_g/dev/wedding/components/layout.js";
+
+
 
 
 
@@ -65,13 +71,13 @@ function (_React$Component) {
       return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33
+          lineNumber: 37
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_server_head__WEBPACK_IMPORTED_MODULE_8___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 34
+          lineNumber: 38
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("meta", {
@@ -79,7 +85,7 @@ function (_React$Component) {
         content: "initial-scale=1.0, width=device-width",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 35
+          lineNumber: 39
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("link", {
@@ -87,54 +93,30 @@ function (_React$Component) {
         href: "static/favicon.ico",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 39
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("link", {
-        rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto+Slab:400,700",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 40
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("link", {
-        rel: "stylesheet",
-        href: "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 44
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("link", {
-        rel: "stylesheet",
-        href: "static/css/layout.css",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 48
+          lineNumber: 43
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("title", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 49
+          lineNumber: 44
         },
         __self: this
-      }, this.props.title || '')), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_9__["Navbar"], {
+      }, this.props.title || '')), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_11__["Navbar"], {
         color: "light",
         light: true,
         expand: "md",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51
+          lineNumber: 46
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_9__["NavbarBrand"], {
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_11__["NavbarBrand"], {
         href: "/",
         className: "mr-auto",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52
+          lineNumber: 47
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
@@ -144,120 +126,120 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 53
+          lineNumber: 48
         },
         __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_9__["NavbarToggler"], {
+      })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_11__["NavbarToggler"], {
         onClick: this.toggleNavbar,
         className: "mr-2",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 55
+          lineNumber: 50
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_9__["Collapse"], {
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_11__["Collapse"], {
         isOpen: !this.state.collapsed,
         navbar: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 56
+          lineNumber: 51
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_9__["Nav"], {
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_11__["Nav"], {
         navbar: true,
         className: "ml-auto",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57
+          lineNumber: 52
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_9__["NavItem"], {
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_11__["NavItem"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58
+          lineNumber: 53
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_9__["NavLink"], {
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_11__["NavLink"], {
         onClick: function onClick() {
           return next_router__WEBPACK_IMPORTED_MODULE_7___default.a.push('/');
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59
+          lineNumber: 54
         },
         __self: this
-      }, "Home")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_9__["NavItem"], {
+      }, "Home")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_11__["NavItem"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 56
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_11__["NavLink"], {
+        onClick: function onClick() {
+          return next_router__WEBPACK_IMPORTED_MODULE_7___default.a.push('/our-story');
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 57
+        },
+        __self: this
+      }, "Our Story")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_11__["NavItem"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 61
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_9__["NavLink"], {
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_11__["NavLink"], {
         onClick: function onClick() {
-          return next_router__WEBPACK_IMPORTED_MODULE_7___default.a.push('/our-story');
+          return next_router__WEBPACK_IMPORTED_MODULE_7___default.a.push('/meet-the-party');
         },
         __source: {
           fileName: _jsxFileName,
           lineNumber: 62
         },
         __self: this
-      }, "Our Story")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_9__["NavItem"], {
+      }, "Meet the Party")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_11__["NavItem"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 66
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_9__["NavLink"], {
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_11__["NavLink"], {
         onClick: function onClick() {
-          return next_router__WEBPACK_IMPORTED_MODULE_7___default.a.push('/meet-the-party');
+          return next_router__WEBPACK_IMPORTED_MODULE_7___default.a.push('/faq');
         },
         __source: {
           fileName: _jsxFileName,
           lineNumber: 67
         },
         __self: this
-      }, "Meet the Party")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_9__["NavItem"], {
+      }, "FAQs")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_11__["NavItem"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 71
+          lineNumber: 69
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_9__["NavLink"], {
-        onClick: function onClick() {
-          return next_router__WEBPACK_IMPORTED_MODULE_7___default.a.push('/faq');
-        },
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 72
-        },
-        __self: this
-      }, "FAQs")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_9__["NavItem"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 74
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_9__["NavLink"], {
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_11__["NavLink"], {
         onClick: function onClick() {
           return next_router__WEBPACK_IMPORTED_MODULE_7___default.a.push('/gallery');
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 75
+          lineNumber: 70
         },
         __self: this
-      }, "Gallery")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_9__["NavItem"], {
+      }, "Gallery")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_11__["NavItem"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 79
+          lineNumber: 74
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_9__["NavLink"], {
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(reactstrap__WEBPACK_IMPORTED_MODULE_11__["NavLink"], {
         target: "_blank",
         href: "https://www.amazon.com/wedding/greg-potts-michelle-phelps-abbeville-october-2019/registry/5EGW9T4EIEYQ",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 80
+          lineNumber: 75
         },
         __self: this
       }, "Wedding Registry"))))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("main", {
@@ -270,7 +252,7 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 89
+          lineNumber: 84
         },
         __self: this
       }, this.props.title ? react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h1", {
@@ -279,7 +261,7 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 98
+          lineNumber: 93
         },
         __self: this
       }, this.props.title) : '', this.props.children), this.props.footer === 'false' ? '' : react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("footer", {
@@ -288,13 +270,13 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 107
+          lineNumber: 102
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 108
+          lineNumber: 103
         },
         __self: this
       }, "\xA9 ", new Date().getFullYear())));
@@ -23694,7 +23676,7 @@ var Index = function Index() {
 
 /***/ }),
 
-/***/ 3:
+/***/ 1:
 /*!**********************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fpotts_g%2Fdev%2Fwedding%2Fpages%2Findex.js ***!
   \**********************************************************************************************************************/
@@ -23717,5 +23699,5 @@ module.exports = dll_3681e7fd756237ce51c6;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]));;
+},[[1,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=index.js.map
