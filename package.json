@@ -10,7 +10,7 @@
     "export": "next build && next export",
     "start": "next start",
     "deploy": "rm -rf node_modules/.cache && NODE_ENV=production next build && NODE_ENV=production next export && touch out/.nojekyll && git add out/ && git commit -m \"Deploy Next.js to gh-pages\" && git subtree push --prefix out origin gh-pages",
-    "gh-pages": "next build && next export && touch out/.nojekyll && github-pages -d out"
+    "gh-pages": "next build && next export && touch out/.nojekyll && gh-pages -d out"
   },
   "keywords": [],
   "author": "",

@@ -23607,25 +23607,38 @@ var Hero = function Hero() {
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     style: {
       position: 'absolute',
-      top: '40vh',
-      left: '5%',
-      width: '90%',
-      margin: 'auto',
-      padding: '20px',
+      top: '0',
+      left: '0',
+      bottom: '0',
+      right: '0',
       zIndex: '10',
-      textAlign: 'center',
-      background: 'rgba(255, 255, 255, 0.5)',
-      borderRadius: '3px'
+      display: 'flex',
+      flexDirection: 'row',
+      alignItems: 'center',
+      justifyContent: 'center'
     },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      background: 'rgba(255, 255, 255, 0.7)',
+      textAlign: 'center',
+      padding: '40px',
+      margin: '0px 5px',
+      borderRadius: '3px'
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 32
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
     },
     __self: this
   }, "We're getting married!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("em", {
@@ -23635,13 +23648,13 @@ var Hero = function Hero() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 41
     },
     __self: this
   }, "Greg & Michelle"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 44
     },
     __self: this
   }, "Sat, October 5th 2019 @ 4:00pm"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -23649,24 +23662,24 @@ var Hero = function Hero() {
     href: "https://www.google.com/maps/place/Main+Street+United+Methodist+Church/@34.1794938,-82.3825782,17z/data=!3m1!4b1!4m5!3m4!1s0x88f7fb568c99204d:0x548dcae9dea4a05e!8m2!3d34.1794938!4d-82.3803895",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 45
     },
     __self: this
-  }, "Main Street United Methodist Church, Abbeville, SC 29620")));
+  }, "Main Street United Methodist Church, Abbeville, SC 29620"))));
 };
 
 var Index = function Index() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    footer: "false",
+    footer: "true",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 56
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Hero, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 57
     },
     __self: this
   }));
