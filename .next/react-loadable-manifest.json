@@ -479,32 +479,6 @@
       "publicPath": "static/chunks/commons.a33dbe08d96f900005fe.js"
     }
   ],
-  "undefined": [
-    {
-      "id": 2,
-      "name": null,
-      "file": "static/chunks/commons.a33dbe08d96f900005fe.js",
-      "publicPath": "static/chunks/commons.a33dbe08d96f900005fe.js"
-    },
-    {
-      "id": 1,
-      "name": null,
-      "file": "static/chunks/commons.a33dbe08d96f900005fe.js",
-      "publicPath": "static/chunks/commons.a33dbe08d96f900005fe.js"
-    },
-    {
-      "id": 3,
-      "name": null,
-      "file": "static/chunks/commons.a33dbe08d96f900005fe.js",
-      "publicPath": "static/chunks/commons.a33dbe08d96f900005fe.js"
-    },
-    {
-      "id": 4,
-      "name": null,
-      "file": "static/chunks/styles.86d5acee9c4b946d4660.js",
-      "publicPath": "static/chunks/styles.86d5acee9c4b946d4660.js"
-    }
-  ],
   "@babel/runtime-corejs2/helpers/interopRequireDefault": [
     {
       "id": "KI45",
@@ -961,7 +935,7 @@
       "publicPath": "static/chunks/commons.a33dbe08d96f900005fe.js"
     }
   ],
-  "../modules/_core": [
+  "../../modules/_core": [
     {
       "id": "WEpk",
       "name": "./node_modules/core-js/library/modules/_core.js",
@@ -1735,6 +1709,32 @@
       "name": "./node_modules/core-js/library/modules/_object-sap.js",
       "file": "static/chunks/commons.a33dbe08d96f900005fe.js",
       "publicPath": "static/chunks/commons.a33dbe08d96f900005fe.js"
+    }
+  ],
+  "undefined": [
+    {
+      "id": 1,
+      "name": null,
+      "file": "static/chunks/commons.a33dbe08d96f900005fe.js",
+      "publicPath": "static/chunks/commons.a33dbe08d96f900005fe.js"
+    },
+    {
+      "id": 2,
+      "name": null,
+      "file": "static/chunks/commons.a33dbe08d96f900005fe.js",
+      "publicPath": "static/chunks/commons.a33dbe08d96f900005fe.js"
+    },
+    {
+      "id": 3,
+      "name": null,
+      "file": "static/chunks/commons.a33dbe08d96f900005fe.js",
+      "publicPath": "static/chunks/commons.a33dbe08d96f900005fe.js"
+    },
+    {
+      "id": 4,
+      "name": null,
+      "file": "static/chunks/styles.86d5acee9c4b946d4660.js",
+      "publicPath": "static/chunks/styles.86d5acee9c4b946d4660.js"
     }
   ],
   "lightbox-react/style.css": [

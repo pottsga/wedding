@@ -12,6 +12,28 @@ const Question = props => (
 const Questions = () => (
   <div>
     <Question
+      question="Where is the ceremony?"
+      answer={
+        <p>
+          The ceremony will be held at{' '}
+          <a
+            href="https://www.google.com/maps/place/Main+Street+United+Methodist+Church/@34.1871073,-82.3410296,12z/data=!4m8!1m2!2m1!1smain+street+united+methodist+church!3m4!1s0x88f7fb568c99204d:0x548dcae9dea4a05e!8m2!3d34.1794938!4d-82.3803895"
+            target="_blank">
+            Main Street United Methodist Church, Abbeville
+          </a>
+        </p>
+      }
+    />
+    <Question
+      question="Where will the meal be held?"
+      answer={
+        <p>
+          We will have the meal at the church following the ceremony in the
+          Greene Center.
+        </p>
+      }
+    />
+    <Question
       question="Where is the after party?"
       answer={
         <p>
