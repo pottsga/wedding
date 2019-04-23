@@ -72,6 +72,11 @@ class Layout extends React.Component {
                 </NavLink>
               </NavItem>
               <NavItem>
+                <NavLink onClick={() => Router.push('/rsvp')}>
+                  RSVP
+                </NavLink>
+              </NavItem>
+              <NavItem>
                 <NavLink
                   target="_blank"
                   href="https://www.amazon.com/wedding/greg-potts-michelle-phelps-abbeville-october-2019/registry/5EGW9T4EIEYQ">

@@ -1,0 +1,30 @@
+label {
+  display: block;
+  position: relative;
+  margin: 15px auto 3px auto;
+}
+
+p { margin: 0; }
+
+input:not([type=checkbox]):not([type=radio]) {
+  width: calc(100% - 10px);
+}
+
+.radioGroup label {
+  display: inline;
+  margin-left: 9px;
+}
+
+.flexContainer {
+  display: flex; 
+  margin: 10px auto;
+}
+
+.flexItem {
+  flex: 1 0 50%;
+}
+
+.required::after {
+  content: " *";
+  color: red;
+}
