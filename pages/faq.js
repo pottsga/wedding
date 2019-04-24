@@ -28,8 +28,7 @@ const Questions = () => (
       question="Where will the meal be held?"
       answer={
         <p>
-          We will have the meal at the church following the ceremony in the
-          Greene Center.
+          We will be holding a meal and drinks at the <a href="https://goo.gl/maps/JZ73BsxAZYEufDH47">James C Self Conference Center at Piedmont Technical College at 620 Emerald Rd. N, Greenwood SC 29646</a>
         </p>
       }
     />
@@ -37,13 +36,7 @@ const Questions = () => (
       question="Where is the after party?"
       answer={
         <p>
-          The after party will be held at the{' '}
-          <a
-            href="https://www.google.com/maps/place/Inn+on+the+Square/@34.1883399,-82.1616077,17z/data=!3m1!4b1!4m5!3m4!1s0x88f8016d9eb21d8f:0x93fd2c7f995ecff!8m2!3d34.1883399!4d-82.159419"
-            target="_blank">
-            Inn on the Square{' '}
-          </a>
-          at 104 East Court Avenue, Greenwood, SC 29646.
+          The after party will be held at the <a href="https://goo.gl/maps/JZ73BsxAZYEufDH47">James C Self Conference Center at Piedmont Technical College at 620 Emerald Rd. N, Greenwood SC 29646</a>
         </p>
       }
     />
@@ -65,14 +58,7 @@ const Questions = () => (
       question="Where should we book our hotel reservations?"
       answer={
         <p>
-          We recommend you book your hotel reservations at the same place we are
-          having the after party. At the{' '}
-          <a
-            href="https://www.google.com/maps/place/Inn+on+the+Square/@34.1883399,-82.1616077,17z/data=!3m1!4b1!4m5!3m4!1s0x88f8016d9eb21d8f:0x93fd2c7f995ecff!8m2!3d34.1883399!4d-82.159419"
-            target="_blank">
-            Inn on the Square{' '}
-          </a>
-          at 104 East Court Avenue, Greenwood, SC 29646.
+          We have a block of rooms reserved at the <a href="https://www.ihg.com/holidayinnexpress/hotels/us/en/greenwood/grdwd/hoteldetail?cm_mmc=GoogleMaps-_-EX-_-US-_-GRDWD">Holiday Inn Express</a> in Greenwood.
         </p>
       }
     />
@@ -94,9 +80,9 @@ const Questions = () => (
           </p>
           <p>
             <a
-              href="https://www.google.com/maps/dir/Greenville-Spartanburg+International+Airport+(GSP),+2000+GSP+Dr,+Greer,+SC+29651/Inn+on+the+Square,+Court+Avenue+East,+Greenwood,+SC/@34.5291944,-82.4020613,10z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x88582a0a39cbf875:0x4d9cda4b48e8eb19!2m2!1d-82.2172338!2d34.8959008!1m5!1m1!1s0x88f8016d9eb21d8f:0x93fd2c7f995ecff!2m2!1d-82.159419!2d34.1883399!3e0"
+              href="https://www.google.com/maps/dir/Greenville-Spartanburg+International+Airport+(GSP),+2000+GSP+Dr,+Greer,+SC+29651/Holiday+Inn+Express+%26+Suites+Greenwood+Mall,+North+Creek+Boulevard,+Greenwood,+SC/@34.5538289,-82.5215729,10z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x88582a0a39cbf875:0x4d9cda4b48e8eb19!2m2!1d-82.2172338!2d34.8959008!1m5!1m1!1s0x88f801b2607da4ed:0x403bb51e7f0f9dce!2m2!1d-82.1848897!2d34.212397"
               target="_blank">
-              Airport to Hotel (Inn on the Square)
+              Airport to Hotel
             </a>
           </p>
         </div>

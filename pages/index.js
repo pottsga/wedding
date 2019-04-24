@@ -1,6 +1,7 @@
 import React from 'react';
-
+import Router from 'next/router';
 import Layout from '../components/layout';
+import Link from 'next/link'
 
 const Hero = () => (
   <div
@@ -41,7 +42,7 @@ const Hero = () => (
         <em style={{display: 'block', margin: '10px 0px'}}>
           Greg &amp; Michelle
         </em>
-        <p>Sat, October 5th 2019 @ 4:00pm</p>
+        <p>Saturday, October 5th 2019 @ 3:00pm</p>
         <a
           target="_blank"
           href="https://www.google.com/maps/place/Main+Street+United+Methodist+Church/@34.1794938,-82.3825782,17z/data=!3m1!4b1!4m5!3m4!1s0x88f7fb568c99204d:0x548dcae9dea4a05e!8m2!3d34.1794938!4d-82.3803895">
@@ -56,6 +57,6 @@ const Index = () => (
   <Layout footer="true">
     <Hero />
   </Layout>
-);
+)
 
 export default Index;
