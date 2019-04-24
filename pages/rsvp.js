@@ -49,6 +49,7 @@ class RSVP extends React.Component {
             {this.state.message} 
           </div>
         }
+        {!this.state.message &&
         <form onSubmit={(e) => this.onSubmit(e) }>
           <div className="flexContainer">
             <div className="flexItem">
@@ -154,6 +155,7 @@ class RSVP extends React.Component {
           <input type="submit" />
 
         </form>
+        }
       </Layout>
     );
   }
