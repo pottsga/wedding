@@ -58,7 +58,7 @@ const Questions = () => (
       question="Where should we book our hotel reservations?"
       answer={
         <p>
-          We have a block of rooms reserved at the <a href="https://www.ihg.com/holidayinnexpress/hotels/us/en/greenwood/grdwd/hoteldetail?cm_mmc=GoogleMaps-_-EX-_-US-_-GRDWD">Holiday Inn Express</a> in Greenwood.
+          We have a block of rooms reserved at the <a href="https://www.google.com/maps/place/Hampton+Inn+Greenwood/@34.2175165,-82.1591256,18.59z/data=!4m5!3m4!1s0x88f800e31326d7bf:0xfa55e88a4e3fc27c!8m2!3d34.2174426!4d-82.1587631">Hampton Inn</a> in Greenwood.
         </p>
       }
     />
