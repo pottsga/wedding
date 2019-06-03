@@ -79,8 +79,15 @@ class Layout extends React.Component {
               <NavItem>
                 <NavLink
                   target="_blank"
-                  href="https://www.amazon.com/wedding/greg-potts-michelle-phelps-abbeville-october-2019/registry/5EGW9T4EIEYQ">
-                  Wedding Registry
+                  href="https://www.amazon.com/wedding/share/phelpspottsregistry">
+                  Amazon Registry
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink
+                  target="_blank"
+                  href="https://www.target.com/gift-registry/giftgiver?registryId=810077b9c17d4d0793b702f584fb8792&type=WEDDING">
+                  Target Registry
                 </NavLink>
               </NavItem>
             </Nav>
