@@ -122,6 +122,8 @@ class RSVP extends React.Component {
             </div>
           }
 
+          {
+          /*
           <div className="flexContainer">
             <div className="flexItem">
               <label className="required" htmlFor="attendingWeddingShower">RSVP for Wedding Shower</label>
@@ -150,6 +152,8 @@ class RSVP extends React.Component {
                 <input onChange={(e) => this.setState({ numChildrenAttendingWeddingShower: Number(e.target.value)})} name="numChildrenAttendingWeddingShower" id="numChildrenAttendingWeddingShower" type="number" pattern="\d*" required />
               </div>
             </div>
+          }
+          */
           }
 
           <input type="submit" />
